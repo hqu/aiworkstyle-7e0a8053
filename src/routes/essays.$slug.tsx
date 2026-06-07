@@ -45,7 +45,7 @@ export const Route = createFileRoute("/essays/$slug")({
 });
 
 function EssayPage() {
-  const { essay } = Route.useLoaderData();
+  const { essay } = Route.useLoaderData() as { essay: import("@/lib/essays").Essay };
   const idx = essays.findIndex((e) => e.slug === essay.slug);
   const next = essays[idx + 1] ?? essays[0];
 
