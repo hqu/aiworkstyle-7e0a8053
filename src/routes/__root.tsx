@@ -77,8 +77,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AI Workstyle — A field guide to working well with AI" },
-      { name: "description", content: "Plain-spoken essays and playbooks on how AI quietly makes curious professionals more capable." },
+      { title: "AI Workstyle — Coming soon" },
+      { name: "description", content: "Build the AI workstyle skills that win in a competitive job market. Launching soon." },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "AI Workstyle" },
       { name: "twitter:card", content: "summary_large_image" },
